@@ -7,6 +7,13 @@ git commit -m "commit files"\
 git remote add origin https://github.com/godzu2208/web-react.git  \
 git push -u origin master 
 
+#OR
+git init \
+git add -A \
+git commit -m 'Added my project' \
+git remote add origin git@github.com:sammy/my-new-project.git \
+git push -u -f origin master \
+
 
 # How to solve this problem of "! [rejected] master -> master (fetch first)"
 #First Do this ...
