@@ -1,5 +1,14 @@
-# GitHub-Problems
-How to solve this problem of "! [rejected] master -> master (fetch first)"
+### GitHub-Problems
+# How to Push an Existing Project to GitHub
+
+git init \
+git add .\
+git commit -m "commit files"\
+git remote add origin https://github.com/godzu2208/web-react.git  \
+git push -u origin master 
+
+
+# How to solve this problem of "! [rejected] master -> master (fetch first)"
 #First Do this ...
 git fetch origin master
 git merge  master
@@ -11,4 +20,4 @@ git rebase tmp
 git push origin HEAD:master
 git branch -D tmp
 
-# Now everything works well.
+#Now everything works well.
