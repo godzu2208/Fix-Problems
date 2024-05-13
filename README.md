@@ -7,7 +7,7 @@ git commit -m "commit files"\
 git remote add origin https://github.com/godzu2208/web-react.git  \
 git push -u origin master 
 
-#OR
+# OR
 git init \
 git add -A \
 git commit -m 'Added my project' \
