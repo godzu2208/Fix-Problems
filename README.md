@@ -25,6 +25,6 @@ git merge  master
 git fetch origin master:tmp\
 git rebase tmp\
 git push origin HEAD:master\
-git branch -D tmp\
+git branch -D tmp
 
 #Now everything works well.
