@@ -27,7 +27,7 @@ git rebase tmp\
 git push origin HEAD:master\
 git branch -D tmp
 
-#Now everything works well.
+# Now everything works well.
 
 # FIX MYSQL in Xampp
 # How to fix mysql shutdown unexpectedly in xampp while apache working
