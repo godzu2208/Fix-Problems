@@ -29,6 +29,7 @@ git branch -D tmp
 
 #Now everything works well.
 
+# FIX MYSQL in Xampp
 # How to fix mysql shutdown unexpectedly in xampp while apache working
 # Just follow these steps and its done.
     - Rename the folder C:\xampp\mysql\data to C:\xampp\mysql\data_old (you can use any name)
